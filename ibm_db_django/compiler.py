@@ -17,7 +17,7 @@
 # +--------------------------------------------------------------------------+
 
 from django.db.models.sql import compiler
-import sys
+import sys, os
 try:
     from django.db.models.functions.json import JSONObject
 except ImportError:
