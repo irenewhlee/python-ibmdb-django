@@ -17,11 +17,8 @@
 # +--------------------------------------------------------------------------+
 
 from django.db.models.sql import compiler
-import sys, os
-try:
-    from django.db.models.functions.json import JSONObject
-except ImportError:
-    from django.db.models.functions.comparison import JSONObject
+import sys
+from django.db.models.functions.json import JSONObject
 
 if sys.version_info >= (3, ):
     try:
