@@ -15,7 +15,7 @@
 # | Authors: Ambrish Bhargava, Tarun Pasrija, Rahul Priyadarshi              |
 # +--------------------------------------------------------------------------+
 
-import sys
+import sys, os
 
 _IS_JYTHON = sys.platform.startswith('java')
 from setuptools import setup, find_packages
